@@ -16,3 +16,11 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
+tasks.register<Wrapper>("wrapper") {
+    gradleVersion = "8.8"
+}
+
+tasks.register("prepareKotlinBuildScriptModel") {
+
+}
