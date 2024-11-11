@@ -3,3 +3,8 @@
 
 Шаблон приложения на Kotlin (Gradle) https://github.com/sproshchaev/otus-kotlin-dev-pro/tree/live-gradle
 Шаблон приложения на Kotlin (Maven)  https://github.com/sproshchaev/otus-kotlin-dev-pro/tree/live-maven
+
+Для подготовки проекта:
+```txt
+1. Открыть файл kotlin-app\pom.xml, правой кнопкой - Maven - Reload project  
+```
