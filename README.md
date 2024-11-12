@@ -12,9 +12,10 @@
 
 4. Если в классах отображаются ошибки в IDE (методы выделены красным), но проект запускается, то 
    Очистить кэш и перезапустить IDE: Выберите File → Invalidate Caches → [Invalidate and Restart]. 
-5. Проверить запуск kotlin-app\src\main\kotlin\Main.kt
+5. Проверить запуск kotlin-app\src\main\kotlin\com.prosoft\Main.kt
 ```
 Перед переключением на другую ветку:
 ```txt
 1. Удалить все файлы, не содержащиеся в commit: Maven → otus-kotlin-dev-pro → Lifecycle → clean
+2. Удалить папку kotlin-app\build
 ```
