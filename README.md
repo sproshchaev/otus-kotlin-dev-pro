@@ -21,25 +21,26 @@
 ### java-app (Java 17)
 ```txt
 1. pom.xml (root) kotlin.compiler.jvmTarget 17
-1. pom.xml: spring-boot-starter-web 3.3.5
+2. pom.xml: spring-boot-starter-web 3.3.5
             kotlin-stdlib-jdk8      2.0.21  
             kotlin-maven-plugin     2.0.21, jvmTarget 17
             maven-compiler-plugin   3.8.1
-2. Структура java-app\src\main\java
+3. Структура java-app\src\main\java
                               \kotlin  
-3. Браузер, Java ("/v1"):   
+4. Браузер, Java ("/v1"):   
                     localhost:8080\v1\hello
                     localhost:8080\v1\user?id=1  (существует)
                     localhost:8080\v1\user?id=10 (не найден)
-4. java-app\src\main\kotlin
+5. java-app\src\main\kotlin
                            \domain\User
                            \repository\UserRepository
                            \service\UserService 
                            \controller\Controller 
 
-5. Перезапустить проект, Браузер, Kotlin ("/v2"): 
+6. Перезапустить проект, Браузер, Kotlin ("/v2"): 
                      localhost:8080\v2\hello
                      localhost:8080\v2\user?id=1  (существует)
                      localhost:8080\v2\user?id=10 (не найден)
 
+7. Изменить точку входа на java-app\src\main\kotlin\MainKt.kt
 ```
