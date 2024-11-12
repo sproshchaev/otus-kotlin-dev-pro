@@ -23,7 +23,7 @@ public class Controller {
         return "Hello, Java!";
     }
 
-    @GetMapping(value = "/hello", params = "id")
+    @GetMapping(value = "/user", params = "id")
     public String greetingUser(@RequestParam(name = "id") Long id) {
         return String.format("Hello, %s!", userService.getUser(id));
     }

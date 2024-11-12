@@ -25,6 +25,19 @@
             maven-compiler-plugin   3.8.1   
 2. Структура java-app\src\main\java
                               \kotlin  
-3. Браузер, Java:   localhost:8080\v1\hello
-            Kotlin: localhost:8080\v2\hello
+3. Браузер, Java ("/v1"):   
+                    localhost:8080\v1\hello
+                    localhost:8080\v1\user?id=1  (существует)
+                    localhost:8080\v1\user?id=10 (не найден)
+4. java-app\src\main\kotlin
+                           \domain\User
+                           \repository\UserRepository
+                           \service\UserService 
+                           \controller\Controller 
+
+5. Перезапустить проект, Браузер, Kotlin ("/v2"): 
+                     localhost:8080\v2\hello
+                     localhost:8080\v2\user?id=1  (существует)
+                     localhost:8080\v2\user?id=10 (не найден)
+
 ```
