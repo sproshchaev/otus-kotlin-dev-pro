@@ -26,6 +26,8 @@
             maven-compiler-plugin   3.8.1   
 2. Структура java-app\src\main\java
                               \kotlin  
-3. Браузер, Java:   localhost:8080\v1\hello
-            Kotlin: localhost:8080\v2\hello
+3. Браузер, Java:   
+                    localhost:8080\v1\hello
+                    localhost:8080\v1\user?id=1  (существует)
+                    localhost:8080\v1\user?id=10 (не найден)
 ```
