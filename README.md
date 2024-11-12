@@ -18,12 +18,13 @@
 1. Удалить все файлы, не содержащиеся в commit: Maven → otus-kotlin-dev-pro → Lifecycle → clean
 ```
 
-### java-app
+### java-app (Java 17)
 ```txt
+1. pom.xml (root) kotlin.compiler.jvmTarget 17
 1. pom.xml: spring-boot-starter-web 3.3.5
             kotlin-stdlib-jdk8      2.0.21  
-            kotlin-maven-plugin     2.0.21
-            maven-compiler-plugin   3.8.1   
+            kotlin-maven-plugin     2.0.21, jvmTarget 17
+            maven-compiler-plugin   3.8.1
 2. Структура java-app\src\main\java
                               \kotlin  
 3. Браузер, Java ("/v1"):   
