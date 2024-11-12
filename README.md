@@ -11,6 +11,7 @@
 Открыть файл kotlin-app\pom.xml, правой кнопкой - Maven - Reload project  
 3. Если в классах отображаются ошибки в IDE (методы выделены красным), но проект запускается, то 
    Очистите кэш и перезапустите IDE: Выберите File → Invalidate Caches / Restart. 
+4. java-app\src\main\java и java-app\src\main\kotlin отметить как "Source Root" (если необходимо). 
 ```
 Перед переключением на другую ветку:
 ```txt
