@@ -7,8 +7,8 @@ import org.springframework.context.annotation.ComponentScan
 
 @SpringBootApplication
 @ComponentScan(basePackages = ["com.prosoft.java", "com.prosoft.kotlin"])
-open class MainKt
+open class MainKotlin
 
 fun main(args: Array<String>) {
-    runApplication<MainKt>(*args)
+    runApplication<MainKotlin>(*args)
 }
