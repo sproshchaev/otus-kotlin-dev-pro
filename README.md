@@ -4,11 +4,15 @@
 Шаблон приложения на Kotlin (Gradle) https://github.com/sproshchaev/otus-kotlin-dev-pro/tree/live-gradle
 Шаблон приложения на Kotlin (Maven)  https://github.com/sproshchaev/otus-kotlin-dev-pro/tree/live-maven
 
-Для подготовки проекта:
+Для подготовки проекта Maven:
 ```txt
-1. Открыть файл kotlin-app\pom.xml, правой кнопкой - Maven - Reload project  
-2. Если в классах отображаются ошибки в IDE (методы выделены красным), но проект запускается, то 
+1. Удалить .gradle (если есть)
+2. Удалить .idea\gradle.xml
+3. Открыть файл kotlin-app\pom.xml, правой кнопкой - Maven - Reload project  
+
+4. Если в классах отображаются ошибки в IDE (методы выделены красным), но проект запускается, то 
    Очистите кэш и перезапустите IDE: Выберите File → Invalidate Caches / Restart. 
+5. Проверить запуск kotlin-app\src\main\kotlin\Main.kt
 ```
 Перед переключением на другую ветку:
 ```txt
