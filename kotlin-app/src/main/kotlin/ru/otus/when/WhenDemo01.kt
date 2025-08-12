@@ -4,7 +4,10 @@ package ru.otus.`when`
  * 01. Пример when. Вывод: День недели.
  */
 fun main() {
-    val day = 3
+    print("Введите номер дня недели (1-7): ")
+
+    val day = readlnOrNull()?.toIntOrNull()
+
     val dayName = when (day) {
         1 -> "Понедельник"
         2 -> "Вторник"
