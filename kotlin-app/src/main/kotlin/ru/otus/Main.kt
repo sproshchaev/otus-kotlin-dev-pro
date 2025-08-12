@@ -1,7 +1,5 @@
 package ru.otus
 
-import ru.otus.dataclass.Person
-
 /**
  * kotlin-app (maven) 12-08-2025 Otus
  */
