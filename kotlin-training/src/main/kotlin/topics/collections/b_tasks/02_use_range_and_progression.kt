@@ -11,3 +11,5 @@ fun main() {
     println(range)          // 1..10
     println(progression)    // 100 downTo 10 step 2
 }
+
+// finished with non-zero exit value 1

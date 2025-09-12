@@ -11,3 +11,5 @@ fun main() {
     println(evenNumbers) // [2, 4]
     println(grouped)     // {0=[2, 4], 1=[1, 3, 5]}
 }
+
+// finished with non-zero exit value 1

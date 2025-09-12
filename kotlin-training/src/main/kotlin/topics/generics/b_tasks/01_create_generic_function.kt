@@ -10,3 +10,5 @@ fun main() {
     println(maxOf(1, 5))              // 5
     println(maxOf("apple", "banana")) // banana
 }
+
+// finished with non-zero exit value 1

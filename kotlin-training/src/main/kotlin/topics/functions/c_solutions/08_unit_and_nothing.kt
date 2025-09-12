@@ -12,3 +12,6 @@ fun main() {
     val result: String = data ?: throwError()
     println(result) // Ошибка времени выполнения
 }
+
+// ожидаемый результат — это ошибка выполнения (Process finished with non-zero exit value 1),
+// вызванная необработанным RuntimeException.

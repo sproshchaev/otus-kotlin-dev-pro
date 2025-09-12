@@ -14,3 +14,5 @@ fun main() {
     val result: String = data ?: throwError()
     println(result)
 }
+
+// finished with non-zero exit value 1

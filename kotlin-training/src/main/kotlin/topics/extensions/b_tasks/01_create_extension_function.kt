@@ -8,3 +8,5 @@ fun Int.toSquared(): Int = TODO("Реализуйте расширение")
 fun main() {
     println(4.toSquared()) // 16
 }
+
+// finished with non-zero exit value 1

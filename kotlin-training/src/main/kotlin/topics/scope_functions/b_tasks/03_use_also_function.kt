@@ -10,3 +10,5 @@ val numbers = listOf(1, 2, 3).also {
 fun main() {
     println(numbers) // [1, 2, 3]
 }
+
+// finished with non-zero exit value 1

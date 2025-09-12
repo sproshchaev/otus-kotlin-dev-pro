@@ -13,3 +13,5 @@ fun main() {
     println(person.name) // Bob
     println(person.age)  // 30
 }
+
+// finished with non-zero exit value 1

@@ -13,7 +13,7 @@ fun main() {
     // 1. Вызов только позиционно
     configureUser("Alice", 25, true)
     configureUser("Bob", 30)        // isAdmin использует значение по умолчанию
-    configureUser("Charlie")        // age и isAdmin используют значения по умолчанию
+    configureUser("Charlie")              // age и isAdmin используют значения по умолчанию
 
     println("---")
 

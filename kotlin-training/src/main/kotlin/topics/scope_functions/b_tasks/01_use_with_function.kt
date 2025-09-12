@@ -9,3 +9,5 @@ fun main() {
     }
     println(result) // Hello, Alice!
 }
+
+// finished with non-zero exit value 1

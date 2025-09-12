@@ -12,3 +12,5 @@ val result = text?.let {
 fun main() {
     println(result) // Hello!
 }
+
+// finished with non-zero exit value 1

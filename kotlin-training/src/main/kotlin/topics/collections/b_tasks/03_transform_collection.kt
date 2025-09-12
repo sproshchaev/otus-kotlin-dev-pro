@@ -8,3 +8,5 @@ fun main() {
 
     println(doubled) // [2, 4, 6, 8, 10]
 }
+
+// finished with non-zero exit value 1

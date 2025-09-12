@@ -8,3 +8,5 @@ val printMessage: (String) -> Unit = TODO("Создайте лямбду")
 fun main() {
     printMessage("Hello, world!")
 }
+
+// finished with non-zero exit value 1

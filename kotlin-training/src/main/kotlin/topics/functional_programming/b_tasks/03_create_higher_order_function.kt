@@ -11,3 +11,5 @@ fun main() {
     println(result1) // 20
     println(result2) // 15
 }
+
+// finished with non-zero exit value 1

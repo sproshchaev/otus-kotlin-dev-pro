@@ -13,3 +13,5 @@ fun main() {
     println(multiply())                        // 1
     println(multiply(5))           // 5
 }
+
+// finished with non-zero exit value 1

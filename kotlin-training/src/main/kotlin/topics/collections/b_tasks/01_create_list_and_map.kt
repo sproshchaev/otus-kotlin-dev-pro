@@ -11,3 +11,5 @@ fun main() {
     println(numbers) // [1, 2, 3, 4, 5]
     println(map)     // {A=1, B=2, C=3}
 }
+
+// finished with non-zero exit value 1

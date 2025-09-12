@@ -14,3 +14,5 @@ fun main() {
     val result = echo({ name, age -> "Hello, $name ($age)" }, "Alice", 33)
     println(result) // Hello, Alice (33)
 }
+
+// finished with non-zero exit value 1

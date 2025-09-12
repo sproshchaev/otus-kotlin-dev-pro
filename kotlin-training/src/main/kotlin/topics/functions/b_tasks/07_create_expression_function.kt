@@ -9,3 +9,5 @@ fun main() {
     println(isEven(4))   // true
     println(isEven(3))   // false
 }
+
+// finished with non-zero exit value 1

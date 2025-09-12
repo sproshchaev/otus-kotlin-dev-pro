@@ -11,3 +11,5 @@ fun main() {
     println(safeToString(42))
     // safeToString(null) // Ошибка компиляции!
 }
+
+// finished with non-zero exit value 1

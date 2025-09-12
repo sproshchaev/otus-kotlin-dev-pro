@@ -8,3 +8,5 @@ val uppercaseFirst: String.() -> String = TODO("Реализуйте лямбд�
 fun main() {
     println("hello".uppercaseFirst()) // Hello
 }
+
+// finished with non-zero exit value 1

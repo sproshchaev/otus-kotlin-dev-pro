@@ -9,3 +9,5 @@ fun main() {
     val result = "My string" plusNum 22
     println(result) // My string (22)
 }
+
+// finished with non-zero exit value 1

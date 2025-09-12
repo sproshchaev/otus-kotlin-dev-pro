@@ -34,3 +34,5 @@ fun main() {
         wordSeparator = '_'
     )
 }
+
+// finished with non-zero exit value 1
