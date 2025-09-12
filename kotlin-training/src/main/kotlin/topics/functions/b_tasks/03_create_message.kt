@@ -4,6 +4,8 @@ package topics.functions.b_tasks
 // которая возвращает строку типа "Hello Mr. John".
 // Вызовите её с разными вариантами.
 
+// Функция должна завершаться без ошибки.
+
 fun createMessage(name: String, prefix: String = "Mr.", suffix: String = ""): String = TODO()
 
 fun main() {

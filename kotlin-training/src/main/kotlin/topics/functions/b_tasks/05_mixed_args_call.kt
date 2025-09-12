@@ -5,6 +5,8 @@ package topics.functions.b_tasks
 // 1. Только позиционно
 // 2. С именованными аргументами
 
+// Функция должна завершаться без ошибки.
+
 fun configureUser(name: String, age: Int = 18, isAdmin: Boolean = false) {
     println("User: $name, Age: $age, Admin: $isAdmin")
 }

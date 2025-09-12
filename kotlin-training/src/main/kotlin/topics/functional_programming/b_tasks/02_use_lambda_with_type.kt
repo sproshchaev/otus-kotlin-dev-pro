@@ -1,11 +1,14 @@
 package topics.functional_programming.b_tasks
 
+// Раскомменти́руйте строки: 8, 12-14.
+// До выполнения задания функция будет завершаться с ошибкой: finished with non-zero exit value 1
+
 // Задание: Создайте лямбду типа (Int, Int) -> Int, которая возвращает сумму двух чисел.
 
-val sum: (Int, Int) -> Int = TODO("Создайте лямбду")
+// Функция должна завершаться без ошибки.
 
-fun main() {
-    println(sum(3, 5)) // 8
-}
+// val sum: (Int, Int) -> Int = TODO("Создайте лямбду")
 
-// finished with non-zero exit value 1
+// fun main() {
+//    println(sum(3, 5)) // 8
+// }

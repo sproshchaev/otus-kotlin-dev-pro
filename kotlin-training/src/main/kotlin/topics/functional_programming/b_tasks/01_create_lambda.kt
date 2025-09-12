@@ -1,12 +1,16 @@
 package topics.functional_programming.b_tasks
 
+// Раскомменти́руйте строки: 10, 12-14.
+// До выполнения задания функция будет завершаться с ошибкой: finished with non-zero exit value 1
+
 // Задание: Создайте лямбду, которая принимает строку и печатает её.
 // Используйте `it` как аргумент.
 
-val printMessage: (String) -> Unit = TODO("Создайте лямбду")
+// Функция должна завершаться без ошибки.
 
-fun main() {
-    printMessage("Hello, world!")
-}
+// val printMessage: (String) -> Unit = TODO("Создайте лямбду")
 
-// finished with non-zero exit value 1
+// fun main() {
+//    printMessage("Hello, world!")
+// }
+

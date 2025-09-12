@@ -1,5 +1,8 @@
 package topics.functions.b_tasks
 
+// Раскомменти́руйте строки: 34-40.
+// До выполнения задания функция будет завершаться с ошибкой: finished with non-zero exit value 1
+
 // Задание:
 // 1. Реализуйте функцию reformat, которая:
 //    - принимает строку и параметры форматирования
@@ -12,6 +15,8 @@ package topics.functions.b_tasks
 //   upperCaseFirstLetter = false
 //   divideByCamelHumps = true
 //   wordSeparator = '_'
+
+// Функция должна завершаться без ошибки.
 
 fun reformat(
     str: String,
@@ -26,13 +31,12 @@ fun reformat(
 
 fun main() {
     // Ваш вызов здесь
-    reformat(
-        str = "myNameIsKotlin",
-        normalizeCase = false,
-        upperCaseFirstLetter = false,
-        divideByCamelHumps = true,
-        wordSeparator = '_'
-    )
+//    reformat(
+//        str = "myNameIsKotlin",
+//        normalizeCase = false,
+//        upperCaseFirstLetter = false,
+//        divideByCamelHumps = true,
+//        wordSeparator = '_'
+//    )
 }
 
-// finished with non-zero exit value 1
