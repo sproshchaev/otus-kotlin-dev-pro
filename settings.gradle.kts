@@ -6,4 +6,3 @@ include("kotlin-app")
 
 
 include("kotlin-training")
-include("kotlin-training")
