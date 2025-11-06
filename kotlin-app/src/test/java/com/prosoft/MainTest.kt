@@ -41,7 +41,8 @@ class MainTest {
     @DisplayName("Проверка деления чисел")
     fun `test division`() {
         val result = calculator.divide(15, 3)
-        assertEquals(5, result)
+        val expectedResult = 5
+        assertEquals(expectedResult, result)
     }
 
     @Test
