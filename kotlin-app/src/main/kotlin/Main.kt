@@ -1,7 +1,7 @@
 package com.prosoft
 
 /**
- * kotlin-app (gradle)
+ * kotlin-demo (20-11-2025)
  */
 fun main() {
     println("Hello World!")
